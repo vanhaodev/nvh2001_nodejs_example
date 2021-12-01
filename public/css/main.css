@@ -1,0 +1,53 @@
+body {
+  background-image: url('../bg_dark_vailoz.jpg');
+  background-size: 100%;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+#headshot {
+    width: 500px;
+    box-shadow: 5px;
+}
+.fade-in-image {
+  animation: fadeIn 35s;
+  -webkit-animation: fadeIn 35s;
+  -moz-animation: fadeIn 35s;
+  -o-animation: fadeIn 35s;
+  -ms-animation: fadeIn 35s;
+}
+p, h1 {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
